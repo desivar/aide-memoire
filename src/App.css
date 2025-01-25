@@ -1,0 +1,250 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #E0FFE0;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #01baef;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #179ca3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #179ca3;
+}
+
+
+.quote-container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fffacd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.quote-container textarea {
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  resize: none;
+  border: none;
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.quote-container .quote-mark {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #00a8e8;
+  margin-top: 10px;
+}
+
+.notes-container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #e0ffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notes-container textarea {
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  resize: none;
+  border: none;
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.notes-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notes-container li {
+  background-color: #f0f8ff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fffacd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-container h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.task-input button {
+  flex-shrink: 0;
+}
+
+.task-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-container li {
+  display: flex;
+  align-items: center;
+  background-color: #f0f8ff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-container li input[type="checkbox"] {
+  margin-right: 10px;
+}
+/* ... existing styles ... */
+
+.appointments-container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fffacd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointments-container h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.appointment-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.appointment-input textarea {
+  width: 100%;
+  min-height: 50px;
+  resize: none;
+  border: none;
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #00a8e8;
+}
+
+.appointment-input input[type="time"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #00a8e8;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.appointments-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.appointments-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f8ff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-text {
+  flex: 1;
+}
+
+.appointment-time {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+
+
+
