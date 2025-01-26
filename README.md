@@ -45,11 +45,12 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 ## Useful promps to Chat GPT
--Can you tell me the steps to build an app with Typewriting
--What I need to so to set up the project?
--What kind of project can I do with Typescript?
--How can I integrate the CSS file to my project?
--How to make the React icon interactive?
+- Item 1 Can you tell me the steps to build an app with Typewriting
+- Item 2 What kind of project can I do with Typescript?
+- Item 3 How can I integrate the CSS file to my project?
+  
+
+
 
 ## Future Work
 The app could be imroved by adding log in log out, a user needs to make an acoount to keep the information.
