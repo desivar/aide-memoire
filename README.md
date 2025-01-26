@@ -53,5 +53,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 ## Future Work
-The app could be imroved by adding log in log out, a user needs to make an acoount to keep the information.
+The app could be improved by adding log in log out, a user needs to make an acoount to keep the information.
 
