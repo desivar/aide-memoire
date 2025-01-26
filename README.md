@@ -44,3 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+## Useful promts to Chat GPT
+Can you tell me the steps to build an app with Typewriting
+What I need to so to set up the project?
+What kind of project can I do with Typescript?
+How can I integrate the CSS file to my project?
+How to make the React icon interactive?
+
+## Future Work
+The app could be imroved by adding log in log out, a user needs to make an acoount to keep the information.
+
