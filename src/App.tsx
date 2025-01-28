@@ -2,6 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './routes/Home';
 import Task from './routes/Task';
+/**
+ * The main App component that sets up the routing for the application.
+ * It uses React Router to define different routes for the application.
+ * 
+ * @returns {JSX.Element} The rendered App component.
+ */
 
 import Appointments from './routes/Appointments';
 import './App.css';
