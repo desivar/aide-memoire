@@ -1,25 +1,25 @@
 {
-  "short_name": "React App", // A short name for the app, used when space is limited.
-  "name": "Create React App Sample", // The full name of the app.
+  "short_name": "React App", 
+  "name": "Create React App Sample", 
   "icons": [
     {
-      "src": "favicon.ico", // The source of the favicon.
-      "sizes": "64x64 32x32 24x24 16x16", // The sizes of the favicon.
-      "type": "image/x-icon" // The type of the favicon.
+      "src": "favicon.ico", 
+      "sizes": "64x64 32x32 24x24 16x16", 
+      "type": "image/x-icon"
     },
     {
-      "src": "logo192.png", // The source of the logo for medium resolution devices.
-      "type": "image/png", // The type of the logo.
-      "sizes": "192x192" // The size of the logo.
+      "src": "logo192.png", 
+      "type": "image/png", 
+      "sizes": "192x192" 
     },
     {
-      "src": "logo512.png", // The source of the logo for high resolution devices.
-      "type": "image/png", // The type of the logo.
-      "sizes": "512x512" // The size of the logo.
+      "src": "logo512.png", 
+      "type": "image/png", 
+      "sizes": "512x512"
     }
   ],
-  "start_url": ".", // The URL that loads when the app is launched.
-  "display": "standalone", // The display mode of the app.
-  "theme_color": "#000000", // The theme color of the app.
-  "background_color": "#ffffff" // The background color of the app.
+  "start_url": ".", 
+  "display": "standalone", 
+  "theme_color": "#000000", 
+  "background_color": "#ffffff" 
 }
